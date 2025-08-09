@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bf1",
+    "name": "Halwa Puri",
+    "image": "https://www.vouch365.com/blog/wp-content/uploads/2025/03/photo.jpg",
+    "ingredients": "Flour, oil, salt, water, semolina, sugar, cardamom, ghee",
+    "steps": "1. Prepare dough using flour, salt, and water. Let it rest. 2. Make halwa by roasting semolina in ghee, then add sugar, cardamom, and water. 3. Roll dough into puris and deep fry until golden brown. 4. Serve hot with suji halwa and chana.",
+    "category": "Breakfast",
+    "time": "20 mins",
+    "rating": "4.1"
+  },
+  {
+    "id": "bf2",
+    "name": "Anda Paratha",
+    "image": "https://i.pinimg.com/474x/6d/4c/15/6d4c15a98e6c8516c76f51ccde31a494.jpg",
+    "ingredients": "Whole wheat flour, eggs, onion, tomato, green chili, coriander, salt, oil",
+    "steps": "1. Make dough with flour, water, and salt. 2. Beat eggs with chopped onion, tomato, green chili, coriander, and spices. 3. Roll the dough, pour egg mix on it while frying, and cook both sides until golden and crispy.",
+    "category": "Breakfast",
+    "time": "22 mins",
+    "rating": "4.2"
+  },
+  {
+    "id": "bf3",
+    "name": "Chana Masala",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazGCzugtFjmMyPtV57UyXnZ0_W3qq9Hzs_g&s",
+    "ingredients": "Chickpeas, onion, tomato, garlic, ginger, cumin, garam masala, turmeric, coriander",
+    "steps": "1. Soak and boil chickpeas. 2. In a pan, sauté chopped onion, garlic, and ginger. 3. Add tomato and spices. 4. Mix in chickpeas and simmer to absorb flavors. 5. Garnish with coriander and serve hot.",
+    "category": "Breakfast",
+    "time": "25 mins",
+    "rating": "4.3"
+  },
+  {
+    "id": "bf4",
+    "name": "Paya",
+    "image": "https://hamariweb.com/recipes/images/recipeimages/4930.jpg",
+    "ingredients": "Goat trotters, onion, garlic, ginger, cinnamon, cloves, black pepper, turmeric, coriander powder, salt",
+    "steps": "1. Wash trotters thoroughly. 2. Pressure cook with garlic, ginger, and whole spices for 30–40 minutes. 3. Prepare masala with onion and powdered spices. 4. Add cooked paya to masala and simmer for flavor blending. 5. Garnish with fresh coriander and ginger.",
+    "category": "Breakfast",
+    "time": "60 mins",
+    "rating": "4.5"
+  },
+  {
+    "id": "bf5",
+    "name": "Suji ka Halwa",
+    "image": "https://www.spicebangla.com/wp-content/uploads/2018/11/Semolina-Halwa.webp",
+    "ingredients": "Semolina, sugar, ghee, water, cardamom, almonds, raisins",
+    "steps": "1. Heat ghee in a pan and roast semolina until golden and aromatic. 2. In a separate pan, boil sugar with water and cardamom to make syrup. 3. Slowly add syrup to semolina while stirring. 4. Cook until thick. 5. Garnish with almonds and raisins.",
+    "category": "Breakfast",
+    "time": "20 mins",
+    "rating": "4.4"
+  }
+]

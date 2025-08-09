@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ln1",
+    "name": "Chicken Biryani",
+    "image": "https://images.food52.com/McqpjxUiMekhfX6Rsq7wuuSoz0g=/2016x1344/filters:format(webp)/d815e816-4664-472e-990b-d880be41499f--chicken-biryani-recipe.jpg",
+    "ingredients": "Chicken, rice, spices",
+    "steps": "1. Marinate and cook chicken. 2. Layer with rice and steam.",
+    "category": "Lunch",
+    "time": "30 mins",
+    "rating": "4.3"
+  },
+  {
+    "id": "ln2",
+    "name": "Beef Korma",
+    "image": "https://crockpot-app-prod.s3.ap-southeast-2.amazonaws.com/indian-beef-korma-900x900_36efaded39.jpeg",
+    "ingredients": "Beef, yogurt, masala",
+    "steps": "1. Cook beef with yogurt and spices.",
+    "category": "Lunch",
+    "time": "45 mins",
+    "rating": "4.5"
+  },
+  {
+    "id": "ln3",
+    "name": "Aloo Gosht",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-VDzRpOW41ybQDqEf31JHI3HyxgHSlF5Ag&s",
+    "ingredients": "Beef, potatoes, spices",
+    "steps": "1. Cook beef. 2. Add potatoes and simmer.",
+    "category": "Lunch",
+    "time": "40 mins",
+    "rating": "4.4"
+  },
+  {
+    "id": "ln4",
+    "name": "Bhindi Masala",
+    "image": "https://greenbowl2soul.com/wp-content/uploads/2019/05/bhindi-masala.jpg",
+    "ingredients": "Ladyfinger, onions, spices",
+    "steps": "1. Fry bhindi. 2. Add onion and spices.",
+    "category": "Lunch",
+    "time": "25 mins",
+    "rating": "4.2"
+  },
+  {
+    "id": "ln5",
+    "name": "Murgh Cholay",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hWGrSagTyA-I93La4hS4zgfEOTK66m_ImA&s",
+    "ingredients": "Chicken, chickpeas, spices",
+    "steps": "1. Cook chicken and chickpeas together.",
+    "category": "Lunch",
+    "time": "35 mins",
+    "rating": "4.4"
+  },
+  {
+    "id": "ln6",
+    "name": "Mix Sabzi",
+    "image": "https://www.masala.tv/wp-content/uploads/2020/09/Mix-subzii.jpg",
+    "ingredients": "Mixed vegetables, spices",
+    "steps": "1. Stir-fry veggies with spices.",
+    "category": "Lunch",
+    "time": "20 mins",
+    "rating": "4.0"
+  },
+  {
+    "id": "ln7",
+    "name": "Masoor Daal",
+    "image": "https://cdn2.foodviva.com/static-content/food-images/daal-kadhi-recipes/masoor-dal/masoor-dal.jpg",
+    "ingredients": "Lentils, garlic, butter",
+    "steps": "1. Cook daal. 2. Add fried garlic topping.",
+    "category": "Lunch",
+    "time": "25 mins",
+    "rating": "4.1"
+  },
+  {
+    "id": "ln8",
+    "name": "Chicken Qeema",
+    "image": "https://www.licious.in/blog/wp-content/uploads/2022/12/shutterstock_1528128245.jpg",
+    "ingredients": "Minced chicken, onion, tomato",
+    "steps": "1. Cook qeema with spices and onion.",
+    "category": "Lunch",
+    "time": "30 mins",
+    "rating": "4.3"
+  },
+  {
+    "id": "ln9",
+    "name": "Tinda Curry",
+    "image": "https://i.ytimg.com/vi/ROqSDSYkotU/maxresdefault.jpg",
+    "ingredients": "Tinda, spices",
+    "steps": "1. Peel tindas. 2. Cook with masala.",
+    "category": "Lunch",
+    "time": "28 mins",
+    "rating": "4.0"
+  },
+  {
+    "id": "ln10",
+    "name": "Kofta Curry",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwZkbBvsoiuitjUCiSDqhB9v9BHCWpzu2pA&s",
+    "ingredients": "Minced meat, spices, gravy",
+    "steps": "1. Make meatballs. 2. Cook in curry.",
+    "category": "Lunch",
+    "time": "38 mins",
+    "rating": "4.5"
+  }
+]

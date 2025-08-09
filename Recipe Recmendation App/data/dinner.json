@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dn1",
+    "name": "Chicken Karahi",
+    "image": "https://i.ytimg.com/vi/GIYgCNsgzUw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCjwWjbJ23XExe2KWcHottP40j5hw",
+    "ingredients": "Chicken, tomatoes, garlic, green chilies, ginger, salt, black pepper, red chili flakes, oil",
+    "steps": "1. Heat oil and sauté garlic until golden. 2. Add chopped tomatoes and cook until soft. 3. Add chicken pieces and cook until they change color. 4. Add salt, black pepper, red chili flakes, and cook on high flame. 5. Add green chilies and ginger slices. Cook until oil separates. 6. Serve hot with naan.",
+    "category": "Dinner",
+    "time": "35 mins",
+    "rating": "4.6"
+  },
+  {
+    "id": "dn2",
+    "name": "Mutton Pulao",
+    "image": "https://i.ytimg.com/vi/Rb3Sx7OWUYw/maxresdefault.jpg",
+    "ingredients": "Mutton, rice, yakhni (broth), onions, black cardamom, cloves, cinnamon, bay leaf, cumin seeds, salt, ginger, garlic",
+    "steps": "1. Boil mutton with spices to make yakhni (broth). 2. In another pan, fry onions until golden. 3. Add drained mutton and cook. 4. Add soaked rice and measured yakhni. 5. Cook on medium until water dries, then cover and simmer (dum). 6. Serve with raita or salad.",
+    "category": "Dinner",
+    "time": "60 mins",
+    "rating": "4.7"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "bf1",
+    "name": "Halwa Puri",
+    "image": "https://www.vouch365.com/blog/wp-content/uploads/2025/03/photo.jpg",
+    "ingredients": "Flour, oil, salt, water, semolina, sugar, cardamom, ghee",
+    "steps": "1. Prepare dough using flour, salt, and water. Let it rest. 2. Make halwa by roasting semolina in ghee, then add sugar, cardamom, and water. 3. Roll dough into puris and deep fry until golden brown. 4. Serve hot with suji halwa and chana.",
+    "category": "Breakfast",
+    "time": "20 mins",
+    "rating": "4.1"
+  },
+  {
+    "id": "bf2",
+    "name": "Anda Paratha",
+    "image": "https://i.pinimg.com/474x/6d/4c/15/6d4c15a98e6c8516c76f51ccde31a494.jpg",
+    "ingredients": "Whole wheat flour, eggs, onion, tomato, green chili, coriander, salt, oil",
+    "steps": "1. Make dough with flour, water, and salt. 2. Beat eggs with chopped onion, tomato, green chili, coriander, and spices. 3. Roll the dough, pour egg mix on it while frying, and cook both sides until golden and crispy.",
+    "category": "Breakfast",
+    "time": "22 mins",
+    "rating": "4.2"
+  },
+  {
+    "id": "bf3",
+    "name": "Chana Masala",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazGCzugtFjmMyPtV57UyXnZ0_W3qq9Hzs_g&s",
+    "ingredients": "Chickpeas, onion, tomato, garlic, ginger, cumin, garam masala, turmeric, coriander",
+    "steps": "1. Soak and boil chickpeas. 2. In a pan, sauté chopped onion, garlic, and ginger. 3. Add tomato and spices. 4. Mix in chickpeas and simmer to absorb flavors. 5. Garnish with coriander and serve hot.",
+    "category": "Breakfast",
+    "time": "25 mins",
+    "rating": "4.3"
+  },
+  {
+    "id": "bf4",
+    "name": "Paya",
+    "image": "https://hamariweb.com/recipes/images/recipeimages/4930.jpg",
+    "ingredients": "Goat trotters, onion, garlic, ginger, cinnamon, cloves, black pepper, turmeric, coriander powder, salt",
+    "steps": "1. Wash trotters thoroughly. 2. Pressure cook with garlic, ginger, and whole spices for 30–40 minutes. 3. Prepare masala with onion and powdered spices. 4. Add cooked paya to masala and simmer for flavor blending. 5. Garnish with fresh coriander and ginger.",
+    "category": "Breakfast",
+    "time": "60 mins",
+    "rating": "4.5"
+  },
+  {
+    "id": "bf5",
+    "name": "Suji ka Halwa",
+    "image": "https://www.spicebangla.com/wp-content/uploads/2018/11/Semolina-Halwa.webp",
+    "ingredients": "Semolina, sugar, ghee, water, cardamom, almonds, raisins",
+    "steps": "1. Heat ghee in a pan and roast semolina until golden and aromatic. 2. In a separate pan, boil sugar with water and cardamom to make syrup. 3. Slowly add syrup to semolina while stirring. 4. Cook until thick. 5. Garnish with almonds and raisins.",
+    "category": "Breakfast",
+    "time": "20 mins",
+    "rating": "4.4"
+  },
+  {
+    "id": "bf6",
+    "name": "Nihari",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VBomnLaEDQ0Vpg9KhD-Lm_BJDFhFE-n_6Q&s",
+    "ingredients": "Beef shank, ginger, garlic, nihari masala, flour, oil, ghee, coriander, lemon",
+    "steps": "1. Heat oil and ghee, fry beef until brown. 2. Add ginger-garlic paste and nihari masala. 3. Add water and slow cook for 3–4 hours or pressure cook for 1 hour. 4. Add flour paste to thicken. 5. Garnish with coriander, ginger, and lemon.",
+    "category": "Breakfast",
+    "time": "90 mins",
+    "rating": "4.6"
+  },
+  {
+    "id": "bf7",
+    "name": "Lassi",
+    "image": "https://madhurasrecipe.com/wp-content/uploads/2020/10/Lassi-Marathi-Recipe-feature-585x488.jpg",
+    "ingredients": "Yogurt, sugar, chilled water, cardamom powder, ice cubes",
+    "steps": "1. Add yogurt, sugar, cardamom, and cold water in a blender. 2. Blend until smooth and frothy. 3. Pour into glasses, add ice cubes, and serve chilled.",
+    "category": "Breakfast",
+    "time": "5 mins",
+    "rating": "4.1"
+  },
+  {
+    "id": "bf8",
+    "name": "Doodh Patti",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTI9sWWgYP_X-xXfk245_60WMJ5zkkK108mQ&s",
+    "ingredients": "Milk, tea leaves, sugar, cardamom",
+    "steps": "1. Boil milk in a saucepan. 2. Add tea leaves and crushed cardamom. 3. Let it simmer for 5–7 minutes. 4. Add sugar to taste and strain before serving.",
+    "category": "Breakfast",
+    "time": "10 mins",
+    "rating": "4.0"
+  },
+  {
+    "id": "bf9",
+    "name": "Bun Omelette",
+    "image": "https://www.wellplated.com/wp-content/uploads/2024/05/Denver-Omelette-Recipe.jpg",
+    "ingredients": "Eggs, buns, onion, tomato, green chili, butter, salt, pepper",
+    "steps": "1. Beat eggs with chopped onion, tomato, chili, salt, and pepper. 2. Pour mixture in a buttered pan and cook both sides. 3. Toast buns with butter. 4. Place omelette inside buns and serve hot.",
+    "category": "Breakfast",
+    "time": "12 mins",
+    "rating": "4.2"
+  },
+  {
+    "id": "bf10",
+    "name": "Aloo Bhujia",
+    "image": "https://butteroverbae.com/wp-content/uploads/2024/11/aloo-bhujia-fry-served.jpg",
+    "ingredients": "Potatoes, cumin seeds, turmeric, chili powder, salt, oil, green chilies",
+    "steps": "1. Peel and thinly slice potatoes. 2. Heat oil, add cumin seeds and green chilies. 3. Add potatoes, turmeric, chili powder, and salt. 4. Fry until crispy and golden. 5. Serve with paratha or roti.",
+    "category": "Breakfast",
+    "time": "18 mins",
+    "rating": "4.3"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ff1",
+    "name": "Chicken Burger",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+    "ingredients": "Chicken patty, burger bun, lettuce, tomato, onion, mayo, cheese",
+    "steps": "1. Grill chicken patty. 2. Toast buns. 3. Assemble with vegetables and sauces.",
+    "category": "Fast Food",
+    "time": "15 mins",
+    "rating": "4.2"
+  },
+  {
+    "id": "ff2",
+    "name": "Chicken Roll",
+    "image": "https://images.pexels.com/photos/4518843/pexels-photo-4518843.jpeg",
+    "ingredients": "Chicken strips, paratha, onion, chutney, salad",
+    "steps": "1. Cook chicken strips. 2. Warm paratha. 3. Roll with chicken and vegetables.",
+    "category": "Fast Food",
+    "time": "12 mins",
+    "rating": "4.3"
+  }
+]

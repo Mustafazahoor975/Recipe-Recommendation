@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ln1",
+    "name": "Chicken Biryani",
+    "image": "https://images.food52.com/McqpjxUiMekhfX6Rsq7wuuSoz0g=/2016x1344/filters:format(webp)/d815e816-4664-472e-990b-d880be41499f--chicken-biryani-recipe.jpg",
+    "ingredients": "Chicken, rice, spices",
+    "steps": "1. Marinate and cook chicken. 2. Layer with rice and steam.",
+    "category": "Lunch",
+    "time": "30 mins",
+    "rating": "4.3"
+  },
+  {
+    "id": "ln2",
+    "name": "Beef Korma",
+    "image": "https://crockpot-app-prod.s3.ap-southeast-2.amazonaws.com/indian-beef-korma-900x900_36efaded39.jpeg",
+    "ingredients": "Beef, yogurt, masala",
+    "steps": "1. Cook beef with yogurt and spices.",
+    "category": "Lunch",
+    "time": "45 mins",
+    "rating": "4.5"
+  },
+  {
+    "id": "ln3",
+    "name": "Aloo Gosht",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-VDzRpOW41ybQDqEf31JHI3HyxgHSlF5Ag&s",
+    "ingredients": "Beef, potatoes, spices",
+    "steps": "1. Cook beef. 2. Add potatoes and simmer.",
+    "category": "Lunch",
+    "time": "40 mins",
+    "rating": "4.4"
+  }
+]

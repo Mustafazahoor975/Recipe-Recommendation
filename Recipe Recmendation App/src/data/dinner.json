@@ -1,0 +1,72 @@
+[
+  {
+    "id": "dn1",
+    "name": "Chicken Karahi",
+    "image": "https://i.ytimg.com/vi/GIYgCNsgzUw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCjwWjbJ23XExe2KWcHottP40j5hw",
+    "ingredients": "Chicken, tomatoes, garlic, green chilies, ginger, salt, black pepper, red chili flakes, oil",
+    "steps": "1. Heat oil and sauté garlic until golden. 2. Add chopped tomatoes and cook until soft. 3. Add chicken pieces and cook until they change color. 4. Add salt, black pepper, red chili flakes, and cook on high flame. 5. Add green chilies and ginger slices. Cook until oil separates. 6. Serve hot with naan."
+  },
+  {
+    "id": "dn2",
+    "name": "Mutton Pulao",
+    "image": "https://i.ytimg.com/vi/Rb3Sx7OWUYw/maxresdefault.jpg",
+    "ingredients": "Mutton, rice, yakhni (broth), onions, black cardamom, cloves, cinnamon, bay leaf, cumin seeds, salt, ginger, garlic",
+    "steps": "1. Boil mutton with spices to make yakhni (broth). 2. In another pan, fry onions until golden. 3. Add drained mutton and cook. 4. Add soaked rice and measured yakhni. 5. Cook on medium until water dries, then cover and simmer (dum). 6. Serve with raita or salad."
+  },
+  {
+    "id": "dn3",
+    "name": "Shami Kabab",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiwe0qjHk-CA-xs8PxlMtYczYC4M7QbLEbA&s",
+    "ingredients": "Beef, chana daal, onion, ginger, garlic, green chili, coriander, egg, garam masala, red chili, salt",
+    "steps": "1. Boil beef and chana daal with salt, garlic, and spices until soft and water dries. 2. Grind into fine mixture. 3. Add chopped onions, green chilies, coriander, and beaten egg. 4. Make flat patties. 5. Fry on medium heat until golden brown. 6. Serve with chutney or ketchup."
+  },
+  {
+    "id": "dn4",
+    "name": "Beef Nihari",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdbnoYVebwoEh79Qh4Q-a7EQEJX75edMoK5A&s",
+    "ingredients": "Beef shank, nihari masala, flour, ginger, garlic, ghee, coriander, lemon, salt",
+    "steps": "1. Heat ghee and fry ginger-garlic paste. 2. Add beef and cook until color changes. 3. Add nihari masala and water, cook on low heat for several hours or pressure cook. 4. Add flour paste to thicken gravy. 5. Simmer until oil separates. 6. Garnish with ginger, coriander, lemon."
+  },
+  {
+    "id": "dn5",
+    "name": "Aloo Keema",
+    "image": "https://www.allrecipes.com/thmb/ae8jl9wgtmKPGCuOpNpTnfHgTWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-231026-keema-aloo-DDMFS-beauty-4x3-6a2d9117370b4383b8b829c79b539501.jpg",
+    "ingredients": "Minced meat, potatoes, onion, tomatoes, green chilies, garlic, ginger, turmeric, red chili powder, garam masala, salt, oil",
+    "steps": "1. Heat oil and sauté onions until golden. 2. Add garlic-ginger paste, then minced meat. 3. Add spices and cook until oil separates. 4. Add diced potatoes and a bit of water. 5. Cover and simmer until potatoes are soft. 6. Garnish with coriander and serve with chapati."
+  },
+  {
+    "id": "dn6",
+    "name": "Chapli Kabab",
+    "image": "https://i.ytimg.com/vi/r7uHBnio2vE/maxresdefault.jpg",
+    "ingredients": "Minced beef, onion, tomato, green chilies, coriander, crushed pomegranate seeds, cornflour, egg, salt, garam masala",
+    "steps": "1. Mix minced beef with finely chopped onions, tomato, green chilies, coriander, and spices. 2. Add cornflour and egg to bind. 3. Shape into flat round patties. 4. Shallow fry in oil until both sides are crispy and cooked through. 5. Serve hot with naan and raita."
+  },
+  {
+    "id": "dn7",
+    "name": "Gajar Halwa",
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2015/01/Gajar-Halwa-Indian.jpg",
+    "ingredients": "Carrots, full cream milk, sugar, ghee, cardamom, khoya, almonds, pistachios",
+    "steps": "1. Grate carrots and cook in milk on low heat until soft. 2. Add sugar and continue cooking. 3. Add ghee and cardamom. 4. Mix in khoya for rich texture. 5. Cook until thick and dry. 6. Garnish with almonds and pistachios before serving."
+  },
+  {
+    "id": "dn8",
+    "name": "Daal Mash",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpLyEXAOdLglkcLENU9VLKxAJ6Vy7oBI1abg&s",
+    "ingredients": "Split mash daal, garlic, ginger, green chilies, salt, turmeric, red chili, butter, oil",
+    "steps": "1. Boil mash daal with turmeric and salt until soft but not mushy. 2. In a separate pan, heat butter and fry chopped garlic, ginger, and green chilies. 3. Pour this tempering over cooked daal. 4. Simmer for 2–3 minutes and serve with roti or rice."
+  },
+  {
+    "id": "dn9",
+    "name": "Raita",
+    "image": "https://spicecravings.com/wp-content/uploads/2022/10/Mint-Raita-Featured.jpg",
+    "ingredients": "Yogurt, cucumber, mint, cumin powder, black salt, green chili, coriander",
+    "steps": "1. Whisk yogurt until smooth. 2. Add grated or chopped cucumber, chopped mint, green chili, and coriander. 3. Sprinkle cumin powder and black salt. 4. Mix well and chill before serving. 5. Serve cold as a side dish."
+  },
+  {
+    "id": "dn10",
+    "name": "Chicken Handi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDKHzgDmujtitKVIrBjyfnLc4pjvrlxi_j7w&s",
+    "ingredients": "Chicken, cream, yogurt, onion, tomato, garlic, ginger, green chili, garam masala, salt, oil, coriander",
+    "steps": "1. Heat oil in handi and fry onions till golden. 2. Add ginger-garlic paste and chicken. 3. Add spices, chopped tomatoes, and yogurt. 4. Cook until chicken is tender. 5. Stir in cream and simmer for few minutes. 6. Garnish with coriander and green chilies. Serve hot."
+  }
+]
