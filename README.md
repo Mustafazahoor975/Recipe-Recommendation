@@ -107,35 +107,3 @@ The mobile application utilizes **Expo Router**. If you're running it, ensure yo
 2. Navigate to the client directory (if split, or using the entry-point) and start the bundler:
    ```bash
    npx expo start
-   ```
-
----
-
-## 📡 API Reference
-
-### Auth Endpoints
-*   `POST /api/auth/register` - Create a new user profile.
-*   `POST /api/auth/login` - Sign in using email & password (returns JWT).
-*   `GET /api/auth/me` - Retrieve current logged-in user profile details (Protected).
-
-### Recipe Endpoints
-*   `GET /api/recipes` - Get all recipes (paginated, sorted).
-*   `GET /api/recipes/:id` - Get details of a single recipe.
-*   `POST /api/recipes` - Create a new recipe (Protected).
-*   `PUT /api/recipes/:id` - Update a recipe (Protected, Author only).
-*   `DELETE /api/recipes/:id` - Delete a recipe (Protected, Author only).
-*   `POST /api/recipes/:id/like` - Like a recipe (Protected).
-*   `DELETE /api/recipes/:id/like` - Unlike a recipe (Protected).
-*   `GET /api/recipes/category/:category` - Fetch recipes under a specific category name.
-*   `GET /api/recipes/search` - Search recipes by query text, category, or difficulty level.
-
-### User & Categories Endpoints
-*   `GET /api/categories` - Fetch all recipe categories.
-*   `PUT /api/users/profile` - Update profile particulars.
-*   `PUT /api/users/avatar` - Update profile avatar.
-*   `PUT /api/users/favorite/:recipeId` - Add/remove recipe to/from user favorites.
-
----
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
