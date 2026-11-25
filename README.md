@@ -1,109 +1,77 @@
-# 🥘 Lazeez - Pakistani Recipe Recommendation App
+# Lazeez — Pakistani Recipe Discovery
 
-Welcome to **Lazeez**, a modern, full-stack Pakistani Recipe Recommendation Application. The project comprises a robust, secure **Node.js/Express backend** connected to a **MongoDB database**, and an **Expo Router-powered React Native mobile application frontend**.
+A recipe-discovery backend built with Node.js, Express and MongoDB, with initial React Native/Expo Router screens included in the source.
 
----
+## My contribution
 
-## 🚀 Features
+**Solo project — Mustafa Zahoor.** I implemented the recipe API, database models, authentication and initial mobile screens.
 
-### 💻 Backend API
-- **User Authentication**: Secure signup and login endpoints using JWT (JSON Web Tokens) and passwords hashed with `bcryptjs`.
-- **Recipe Management**: Create, read, update, and delete (CRUD) recipes, mark recipes as public or private, and toggle likes.
-- **Categorization**: Group recipes by category (`Breakfast`, `Lunch`, `Dinner`, `Fast Food`) with dynamic count updates.
-- **Advanced Querying**: Text search across recipe names and ingredients, plus sorting and pagination.
-- **Security Protocols**: Armed with API rate-limiting (`express-rate-limit`) and security header protection (`helmet`).
+## Implemented scope
 
-### 📱 Frontend Client
-- **Interactive UI**: Native cross-platform UI built on React Native.
-- **Expo Router Navigation**: Modern stack navigation layout (`_layout.tsx`) with dynamic route passing.
-- **State Integration**: Screen-specific logic managing state dynamically (`categories.tsx`).
+- Account registration and JWT login.
+- Recipe CRUD, public/private visibility and likes.
+- Recipe categories, ingredient/name search, sorting and pagination.
+- Express middleware for request validation, rate limiting and security headers.
 
----
+The mobile files are an initial client scaffold. The committed package manifest contains backend dependencies and scripts; it does not configure a complete runnable Expo application. Recipe discovery is based on queries and categories, not a trained recommendation model.
 
-## 🛠️ Technology Stack
+## Repository layout
 
-| Layer | Technologies |
-|---|---|
-| **Backend Core** | Node.js, Express.js |
-| **Database** | MongoDB, Mongoose (ODM) |
-| **Authentication** | JSON Web Tokens (JWT), bcryptjs |
-| **Security & Utilities** | Helmet, Express Rate Limit, Multer (file upload), Dotenv, Express Validator |
-| **Frontend Framework** | React Native, Expo Router, TypeScript |
+The application lives in [Recipe Recmendation App](./Recipe%20Recmendation%20App/) (the directory spelling is retained).
 
----
+| Path | Purpose |
+| --- | --- |
+| `controllers/`, `routes/` | API request handlers and routes |
+| `models/` | User, recipe and category models |
+| `middleware/` | Authentication and error handling |
+| `data/` | Recipe seed JSON |
+| `scripts/seedData.js` | Optional local seed helper |
+| `src/` | Initial mobile screens and local client data |
+| `server.js` | Express entry point |
 
-## 📂 Project Structure
+## Run the backend locally
+
+Use a Node.js version supported by the dependencies and a running MongoDB instance.
 
 ```bash
-Recipe-Recommendation/
-├── Recipe Recmendation App/
-│   ├── controllers/         # Express route controllers (auth, recipes, users, categories)
-│   ├── data/                # Seed JSON files (breakfast, lunch, dinner, fastfood)
-│   ├── middleware/          # JWT protect, error handling, and 404 middlewares
-│   ├── models/              # Mongoose database schemas (User, Recipe, Category)
-│   ├── routes/              # Express API route endpoints
-│   ├── scripts/             # Database seeding scripts (seedData.js)
-│   ├── src/                 # Expo Router React Native client screens and local data
-│   │   ├── data/            # Local frontend JSON mock data
-│   │   ├── _layout.tsx      # Main Expo Stack Navigation layout
-│   │   └── categories.tsx   # React Native categories screen
-│   ├── package.json         # Node.js dependencies and scripts configuration
-│   └── server.js            # Server entry point
-└── README.md                # Project documentation (this file)
-```
-
----
-
-## ⚙️ Backend Setup & Installation
-
-### 1. Prerequisites
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [MongoDB Community Server](https://www.mongodb.com/try/download/community) (running locally or a MongoDB Atlas URI)
-
-### 2. Installation
-Navigate to the app folder and install the Node.js dependencies:
-```bash
-cd "Recipe Recmendation App"
+git clone https://github.com/Mustafazahoor975/Recipe-Recommendation.git
+cd "Recipe-Recommendation/Recipe Recmendation App"
 npm install
 ```
 
-### 3. Environment Variables
-Create a `.env` file in the root of `"Recipe Recmendation App"` directory:
+Create a local `.env` file:
+
 ```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/recipe-app
-JWT_SECRET=your_jwt_secret_key_here
+JWT_SECRET=replace_with_a_long_random_local_secret
 JWT_EXPIRE=30d
 CORS_ORIGINS=http://localhost:3000,http://localhost:8081
 NODE_ENV=development
 ```
 
-### 4. Seed the Database
-Populate your MongoDB database with pre-configured Pakistani recipe categories and meals (Breakfast, Lunch, Dinner, Fast Food):
-```bash
-npm run seed
-# or manually: node scripts/seedData.js
-```
-*(Note: Seeding creates an Admin user with email `admin@recipeapp.com` and password `password123`)*
+Start the API:
 
-### 5. Run the Server
-Run in development mode with hot-reloading (via nodemon):
 ```bash
 npm run dev
 ```
-The server will boot on `http://localhost:5000`. You can test connection via the Health Check API:
-`http://localhost:5000/api/health`
 
----
+Check [http://localhost:5000/api/health](http://localhost:5000/api/health). This endpoint confirms that the server responds; exercise database-backed routes separately.
 
-## 📱 Mobile Frontend Setup
+### Optional seed data
 
-The mobile application utilizes **Expo Router**. If you're running it, ensure you have Expo CLI installed:
+From the application directory:
 
-1. Globally install expo CLI (if not done already):
-   ```bash
-   npm install -g expo-cli
-   ```
-2. Navigate to the client directory (if split, or using the entry-point) and start the bundler:
-   ```bash
-   npx expo start
+```bash
+node scripts/seedData.js
+```
+
+**Use a disposable local database:** this helper deletes existing recipes and categories before inserting sample data, and creates a demo account if one is absent. It is not a production migration. There is no `npm run seed` script in the current package manifest.
+
+## Mobile client status
+
+The `src/` folder contains initial Expo Router screens. Additional Expo configuration, dependencies and integration work are needed before a standalone mobile build can be documented. The backend's `npm install` does not install a complete Expo client.
+
+## Validation status
+
+The seed helper's JavaScript syntax has been checked. Database seeding and end-to-end application flows have not been executed as part of this documentation update. The current `npm test` script is a placeholder.
