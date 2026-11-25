@@ -4,11 +4,13 @@ import Recipe from '../models/Recipe.js';
 import Category from '../models/Category.js';
 import User from '../models/User.js';
 
-// Import recipe data
-import breakfastData from '../data/breakfast.json\' assert { type: 'json' };
-import lunchData from '../data/lunch.json\' assert { type: 'json' };
-import dinnerData from '../data/dinner.json\' assert { type: 'json' };
-import fastfoodData from '../data/fastfood.json\' assert { type: 'json' };
+import { readFileSync } from 'node:fs';
+
+// Load recipe data relative to this module (independent of the working directory)
+const breakfastData = JSON.parse(readFileSync(new URL('../data/breakfast.json', import.meta.url), 'utf8'));
+const lunchData = JSON.parse(readFileSync(new URL('../data/lunch.json', import.meta.url), 'utf8'));
+const dinnerData = JSON.parse(readFileSync(new URL('../data/dinner.json', import.meta.url), 'utf8'));
+const fastfoodData = JSON.parse(readFileSync(new URL('../data/fastfood.json', import.meta.url), 'utf8'));
 
 dotenv.config();
 
